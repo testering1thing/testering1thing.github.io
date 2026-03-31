@@ -1,40 +1,71 @@
 <!--
 
-YOU ARE PLAYING ON THE BETA VERSION: MineTPE v1.0
-LATEST VERSION IS STILL V1.0, WE WILL UPDATE SOON
+YOU ARE PLAYING ON THE VERSION: MineTPE v1.3.1
+LATEST VERSION IS IN DEVELOPMENT v1.3.2, WE WILL UPDATE SOON
 
-THIS CLIENT IS STILL IN DEVELOPMENT, SO PLEASE EXCUSE ANY BUGS AND REPORT THEM HERE: https://discord.gg/UEE39zHuCx
+THIS CLIENT IS STABLE, PLEASE EXCUSE ANY BUGS AND REPORT THEM TO THIS EMAIL: bdaniel2914m@gmail.com or bdaniel2914myt@gmail.com  or dm bdaniel2914m on discord 
 
 MineTPE plays directly in the iframe, while  pressing the undetectable button 
-opens MineTPE in a new window that appears blank to screen-monitoring software such as GoGuardian and Securely
+opens MineTPE in a new window that appears blank to screen-monitoring software such as GoGuardian and Securely and maybe Linewize Connect.
 
-MineTPE 1.12 created by Bdaniel2914M, Build of Eagletcraft based on made by PeytonPlayz595
+MineTPE 1.3.1 created by Bdaniel2914M, Build of Eagletcraft based on made by PeytonPlayz595 (the verison of it is 1.12)
 
 EaglercraftX Engine created by lax1dude and ayunami2000
 
 Eagletcraft compiled by PlanetDoge w/ help from the PlanetGamez team
 
-MineTPE 1.12 average RAM usage: 1.6 GB
-MineTPE Undetectable average RAM usage: 0.8 GB
+MineTPE 1.3.1 average RAM usage: 1.6 GB
+MineTPE 1.3.1 Undetectable average RAM usage: 0.8 GB
 
 
 
+MineTPE's code is liscensed under the GNU General public licence. Redistribution of code without messaging for access is prohibited.
+GitHub Link: https://github.com/testering1thing/MineTPE?tab=readme-ov-file
 
 
-
-
-Eagletcraft's (& not MineTPE's code) is liscensed under the Apache 2.0 terms. Redistribution of code without attribution is prohibited.
-GitHub Link: https://github.com/PlanetDogeCodes/Eagletcraft-1.12
-
+-testering1thing (also known as, Bdaniel2914M).
 -->
 
 
-
-
 <html><head><base target="_blank"><script id="gamemonetize-sdk">Couldn't find the requested file /sedk.js in testamalame/sef.</script></head><body><div id="container">
-  <iframe id="fr" width="100%" height="100%" frameborder="0" allowfullscreen=""></iframe>
-  <button class="play-button" type="button" onclick="PlayTo(this)">PLAY MineTPE</button>
-  <button class="fullscreen-button" type="button" onclick="openFullscreen()">OPEN UNDETECTABLE MineTPE Client</button>
+  <a href="https://github.com/testering1thing/MineTPE" 
+   class="bottom-left-btn" 
+   target="_blank">
+   MineTPE GitHub
+</a>
+
+<style>
+.bottom-left-btn {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    text-decoration: bold;
+    border-radius: 6px;
+    font-family: Arial;
+    font-size: 16px;
+}
+
+.bottom-left-btn:hover {
+    background-color: #4a148c;
+}
+</style>
+    <style>
+body {
+  background-color: #121212; /* dark theme */
+  background-image: url("https://raw.githubusercontent.com/testering1thing/MineTPE/refs/heads/main/Drawing-1.sketchpad.png"); /* optional image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+</style>
+
+    
+    <iframe id="fr" width="100%" height="100%" frameborder="0" allowfullscreen=""></iframe>
+  <button class="play-button" type="button" onclick="PlayTo(this)">Open Reguler MineTPE Client</button>
+  <button class="fullscreen-button" type="button" onclick="openFullscreen()">Open Undectable MineTPE CLient</button>
 </div>
 
 <style>
@@ -51,7 +82,6 @@ GitHub Link: https://github.com/PlanetDogeCodes/Eagletcraft-1.12
   const STORE_NAME = 'GameFiles';
   const CACHE_DURATION = 90 * 24 * 60 * 60 * 1000; // 3 ay
   const FILE_URL = 'https://raw.githubusercontent.com/testering1thing/MineTPE/refs/heads/main/egc1-12.xml';
-  const SDK_URL = 'https://cdn.jsdelivr.net/gh/testamalame/sef@main/sedk.js';
 
   function openDB() {
     return new Promise((resolve, reject) => {
@@ -116,7 +146,7 @@ GitHub Link: https://github.com/PlanetDogeCodes/Eagletcraft-1.12
       iframe.contentWindow.document.addEventListener('touchstart', showAdOnClick);
     }).catch((err) => {
       console.error('Error:', err);
-      alert('MineTPE Is Starting');
+      alert('MineTPE is launching. If you see any errors, dm bdaniel2914m on discord.');
     });
   }
 
@@ -131,19 +161,29 @@ GitHub Link: https://github.com/PlanetDogeCodes/Eagletcraft-1.12
         newWindow.document.addEventListener('pointerdown', showAdOnClick);
         newWindow.document.addEventListener('touchstart', showAdOnClick);
       } else {
-        alert('Tam ekran açılamadı.');
+        alert('something happened? i guess its launching');
       }
     }).catch((err) => {
       console.error('Error:', err);
-      alert('Starting Undetectable MineTPE Client');
+      alert('Launching undectable MineTPE client.');
     });
   }
 </script></body></html>
 
 <!--
 
-This MineTPE instance Does not update automaticly
-Current Version: v1.0 
-Date Updated: 2/4/2026
+This MineTPE instance does not update automatically, you would need to grab the latest html from github.
+Current Version: v1.3.1
+Updated on: 3/30/2026
+
+
+
+
+
+
+hi there
+
+
+
 
 -->
